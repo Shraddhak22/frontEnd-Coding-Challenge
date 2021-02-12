@@ -8,7 +8,7 @@ To start backend server,
 3. You will see server running on localhost:4000
 
 
-To run backend side,
+To run client side,
 1. Go to campaign folder
 2. install all dependencies using npm install
 3. To start server, run command npm start
