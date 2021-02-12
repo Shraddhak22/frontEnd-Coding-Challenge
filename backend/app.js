@@ -3,7 +3,7 @@ const app = express()
 const port = 4000
 
 const data = require('./cards.json')
-console.log(data)
+//console.log(data)
 app.get('/getCards', function (req, res) {
   res.header("Content-Type",'application/json');
   res.send(JSON.stringify(data));
